@@ -1,0 +1,13 @@
+
+n=int(input("enter a number:"))
+count=0
+while n>0:
+    tem=n%10
+    count+=1
+    n=n//10
+    print("number of digits:",count)
+O/P:
+enter a number:
+2342
+number of digits: 4
+
